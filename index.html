@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-PT"><head><meta charset="utf-8">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+try{if(localStorage.getItem('jp_consent')==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JWGB4JP');</script>
+<!-- End Google Tag Manager -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>JP Clean | Higienização e impermeabilização premium de estofados</title>
 <meta name="description" content="Higienização e impermeabilização premium de sofás, colchões, cadeiras, poltronas e tapetes em Lisboa, Setúbal, Cascais e arredores.">
@@ -46,7 +58,12 @@ section{padding:56px 0}h2{font-size:clamp(26px,4vw,38px);margin:0 0 8px;line-hei
 .cta a.l{color:var(--mut);font-size:15px}
 footer{border-top:1px solid var(--line);padding:28px 0 96px;color:var(--mut);font-size:14px}
 .fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:5;box-shadow:0 8px 24px rgba(0,0,0,.25)}
-</style></head><body>
+.ck{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 8px 30px rgba(0,0,0,.3);display:none;max-width:720px;margin:0 auto}.ck p{margin:0 0 12px;font-size:14px}.ck .acts .btn{padding:10px 20px;font-size:15px}footer a{color:var(--blue)}</style></head><body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JWGB4JP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div class="w">
 <header><a class="brand" href="#"><img src="logo.webp" alt="JP Clean e Higienização"><span>JP Clean</span></a>
 <a class="btn g" href="https://wa.me/351965553459?text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20um%20or%C3%A7amento.">WhatsApp</a></header>
@@ -86,6 +103,21 @@ footer{border-top:1px solid var(--line);padding:28px 0 96px;color:var(--mut);fon
 <p style="margin-top:20px"><a class="l" href="https://www.instagram.com/jp.clean.higienizacao/">Instagram @jp.clean.higienizacao</a> · <a class="l" href="mailto:jpcleansolucao@gmail.com">jpcleansolucao@gmail.com</a></p></div></section>
 
 <footer><div class="w"><strong>JP Clean e Higienização</strong> · Lisboa, Setúbal, Cascais e arredores<br>
-Privacidade: esta página não recolhe dados pessoais. Ao contactar-nos por WhatsApp, telefone, e-mail ou Instagram, os seus dados são usados apenas para responder ao seu pedido.</div></footer>
+<a href="politica-privacidade.html">Política de Privacidade</a> · <a href="politica-cookies.html">Política de Cookies</a> · <a href="#" id="ck-open">Gerir cookies</a></div></footer>
 <a class="btn g fab" href="https://wa.me/351965553459?text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20um%20or%C3%A7amento.">WhatsApp</a>
+<div class="ck" id="ck" role="dialog" aria-label="Cookies"><p>Usamos cookies para medir os nossos anúncios e melhorar a página, só se aceitar. Veja a <a href="politica-cookies.html">Política de Cookies</a>.</p><div class="acts"><button class="btn" id="ck-yes">Aceitar</button><button class="btn o" id="ck-no">Recusar</button></div></div>
+<script>
+(function(){var b=document.getElementById('ck');
+function st(){try{return localStorage.getItem('jp_consent')}catch(e){return null}}
+function sv(v){try{localStorage.setItem('jp_consent',v)}catch(e){}}
+function upd(v){gtag('consent','update',{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v});}
+if(!st()){b.style.display='block';}
+document.getElementById('ck-yes').onclick=function(){sv('granted');upd('granted');b.style.display='none';};
+document.getElementById('ck-no').onclick=function(){sv('denied');upd('denied');b.style.display='none';};
+document.getElementById('ck-open').onclick=function(e){e.preventDefault();b.style.display='block';};
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';
+if(h.indexOf('wa.me')>-1){dataLayer.push({event:'whatsapp_click',link_url:h,link_text:(a.textContent||'').trim()});}
+else if(h.indexOf('tel:')===0){dataLayer.push({event:'phone_click',link_url:h});}});
+})();
+</script>
 </body></html>
